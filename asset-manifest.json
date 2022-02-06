@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/spa-food-project/static/css/main.a9462ae7.css",
+    "main.js": "/spa-food-project/static/js/main.c1d3a255.js",
+    "index.html": "/spa-food-project/index.html",
+    "main.a9462ae7.css.map": "/spa-food-project/static/css/main.a9462ae7.css.map",
+    "main.c1d3a255.js.map": "/spa-food-project/static/js/main.c1d3a255.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9462ae7.css",
+    "static/js/main.c1d3a255.js"
+  ]
+}
