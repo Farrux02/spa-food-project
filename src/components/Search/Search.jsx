@@ -14,7 +14,7 @@ export default function Search({handleSearch = Function.prototype}) {
     };
     
     return (
-        <form className="d-flex">
+        <div className="d-flex">
           <input
             className="form-control me-2"
             style={{maxWidth: '75rem'}}
@@ -25,9 +25,9 @@ export default function Search({handleSearch = Function.prototype}) {
             onChange={(e) => setValue(e.target.value)}
             value={value}
           />
-          <button className="btn btn-outline-success" type="submit" onClick={handleSubmit}>
+          <button className="btn btn-outline-success" type="button" onClick={handleSubmit}>
             Search
           </button>
-        </form>
+        </div>
     )
 }
